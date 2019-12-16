@@ -1,0 +1,40 @@
+@import url('reset.css');
+
+body {
+  background-color: #FFF;
+  color:#000;
+  font-size: 14px;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+form {
+  background-color: darksalmon;
+  width: 600px;
+  padding: 20px;
+}
+
+form div {
+  padding: 10px 0;
+}
+
+form div label {
+  float: left;
+  width: 240px;
+  padding: 0 10px 0 0;
+  text-align: right;
+}
+
+form div input[type="submit"] {
+  background-color: red;
+  color: yellow;
+  font-size: 1.5em;
+  margin: 0 0 0 250px;
+}
+
+form fieldset {
+  outline: 2px solid red;
+}
+
+form textarea {
+  font-family: Verdana, Arial, sans-serif;
+}
