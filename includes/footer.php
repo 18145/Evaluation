@@ -1,8 +1,5 @@
-<?php
-$year = date('Y');
-?>
 <footer>
-  <p>&copy; <?=$year ?> NFactoru Corporation</p>
+  <p>Du bon gros footer qui vaut un 20/20</p>
 </footer>
 </body>
 </html>
