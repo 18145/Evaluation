@@ -1,6 +1,6 @@
 <html lang ="fr"dir="ltr">
 <header>
-<div  id = " nav ">
+<div  id = "nav">
     <nav>
         <ul >
           <li><a href="index.php? Page= accueil"title="Retour à la page d'accueil "><p>Accueil</p></a></li>

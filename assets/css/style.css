@@ -1,24 +1,16 @@
 @import url('reset.css');
 
-#accueil{
-  margin-top: 90px;
-  font-size: 30px;
-  text-align: center;
-}
-
 body {
-background-size: 100%;
-  background-color: #003366;
-  color:#003366;
+  background-color: #FFF;
+  color:#000;
   font-size: 14px;
   font-family: Verdana, Arial, sans-serif;
 }
 
-
 form {
-  background-color: #E9967A;
-  width: 60px;
-  padding: 40px;
+  background-color: darksalmon;
+  width: 600px;
+  padding: 20px;
 }
 
 form div {
@@ -45,4 +37,35 @@ form fieldset {
 
 form textarea {
   font-family: Verdana, Arial, sans-serif;
+}
+
+nav menu {
+  flex: 1
+
+        content:
+        position: absolute
+        width: 4px
+        height: 4px
+        border-radius: 50%
+        bottom: 5px
+        left: calc(50% - 2px)
+        background color: $yellow
+        will-change: transform
+        transform: scale(0)
+        transition: transform 0.2s ease
+
+      &:hover:after
+        transform: scale(1)
+
+  &-item
+    position: relative
+    line-height: 2.5rem
+    text-align: center
+
+    a
+      overflow: hidden
+      white-space: nowrap
+      text-overflow: ellipsis
+      display: block
+      color: $white
 }
