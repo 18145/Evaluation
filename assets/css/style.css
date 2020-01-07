@@ -1,71 +1,16 @@
 @import url('reset.css');
 
-body {
+body{
   background-color: #FFF;
-  color:#000;
-  font-size: 14px;
-  font-family: Verdana, Arial, sans-serif;
 }
 
-form {
-  background-color: darksalmon;
-  width: 700px;
-  padding: 30px;
+div nav ul li {
+  display: inline-block;
+  background-color: #3FA09E;
+  font-size: 3.2em;
+  font-family: serif;
 }
 
-form div {
-  padding: 10px 0;
-}
-
-form div label {
-  float: left;
-  width: 240px;
-  padding: 0 10px 0 0;
-  text-align: right;
-}
-
-form div input[type="submit"] {
-  background-color: red;
-  color: yellow;
-  font-size: 1.5em;
-  margin: 0 0 0 250px;
-}
-
-form fieldset {
-  outline: 2px solid red;
-}
-
-form textarea {
-  font-family: Verdana, Arial, sans-serif;
-}
-
-nav menu {
-  flex: 1
-
-        content:
-        position: absolute
-        width: 4px
-        height: 4px
-        border-radius: 50%
-        bottom: 5px
-        left: calc(50% - 2px)
-        background color: $yellow
-        will-change: transform
-        transform: scale(0)
-        transition: transform 0.2s ease
-
-      &:hover:after
-        transform: scale(1)
-
-  &-item
-    position: relative
-    line-height: 2.5rem
-    text-align: center
-
-    a
-      overflow: hidden
-      white-space: nowrap
-      text-overflow: ellipsis
-      display: block
-      color: $white
+header img {
+width: 100%;
 }
