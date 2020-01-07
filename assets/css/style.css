@@ -13,4 +13,19 @@ div nav ul li {
 
 header img {
 width: 100%;
+position: relative;
+}
+
+div p {
+margin-top: 10px;
+  font-family: cursive;
+}
+
+footer {
+  background-color: #3FA09E;
+  margin-top: 60px;
+  height: 80px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3em;
 }
