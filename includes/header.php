@@ -1,6 +1,6 @@
 <header>
 
-<img src="Vac.jpg" alt="mer">
+<img src="look.jpg" alt="Le regard persant de fred !">
 
 <div id = "nav">
     <nav>
@@ -16,6 +16,5 @@
 </div>
 </header>
 <body>
-
 </body>
 </html>

@@ -17,9 +17,9 @@ width: 100%;
 position: relative;
 }
 
-div p {
+.p {
 margin-top: 10px;
-  font-family: cursive;
+font-family: cursive;
 }
 
 footer {
