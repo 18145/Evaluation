@@ -17,15 +17,23 @@ width: 100%;
 position: relative;
 }
 
-.p {
+.no {
 margin-top: 10px;
 font-family: cursive;
+color: #FFF;
+float: right;
+font-size: 1.2em;
+margin-right: 2em;
+background-color: #700909
 }
 
-footer {
+.top {
+  margin-top: 10px;
+}
+
+#footer{
   background-color: #3FA09E;
-  margin-top: 60px;
-  height: 80px;
+  height: 90px;
   text-align: center;
   font-weight: bold;
   font-size: 3em;
