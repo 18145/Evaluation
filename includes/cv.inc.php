@@ -10,16 +10,16 @@
             <header>
                 <h1>Théo <span>Lehéricé</span>
                     <img src="./assets/img/tl.jpg" alt="Portrait Théo Lehéricé"
-                    title="Frédéric Noël - Consultant | Formateur" />
+                    title="Théo Lehéricé - Référent Digital" />
                 </h1>
-                <h2>Consultant | Formateur</h2>
+                <h2>Référent Digital</h2>
             </header>
                 <main>
                     <div id="mainFlexed">
                         <section>
                             <article>
                                 <dl>
-                                    <dt class="first">Domaines de compétences</dt>
+                                    <dt class="first">Compétences</dt>
                                     <dd>Management technique</dd>
                                     <dd>Gestion de projet</dd>
                                     <dd>Langages
@@ -61,9 +61,9 @@
                 </main>
             <footer>
                 <address>
-                    Frédéric Noël - 17 rue de la République - 76210 Bolbec<br />
-                    <a href="mailto:contact@fredericnoel.com">contact@fredericnoel.com</a><br />
-                    <a href="tel:+33627234576">+33 6 27 23 45 76</a>
+                    Théo Lehéricé - 216 Rue Léon Blum - 76300 Sotteville-lès-Rouen<br />
+                    <a href="mailto:ltride@yahoo.fr">ltride@yahoo.fr</a><br />
+                    <a href="tel:+33616896373">+33 6 16 89 63 73</a>
                 </address>
             </footer>
         </div>
