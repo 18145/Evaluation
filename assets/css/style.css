@@ -10,6 +10,7 @@ div nav ul li {
   font-size: 3.2em;
   font-family: serif;
   text-align: center;
+  font-weight: bold;
 }
 
 header img {
@@ -28,13 +29,32 @@ background-color: #700909
 }
 
 .top {
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-#footer h1{
+#footer{
   background-color: #3FA09E;
   height: 90px;
   text-align: center;
   font-weight: bold;
   font-size: 3em;
+  bottom: 0px;
+}
+
+.beach{
+margin-top: 50px;
+width: 400px;
+height: 400px;
+}
+
+.foret{
+  max-width: 100%;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.ml{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
