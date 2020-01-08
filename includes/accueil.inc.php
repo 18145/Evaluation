@@ -8,6 +8,6 @@
 </div>
 
 <div class="top">
-<video src="./assets/img/nono.gif" autoplay poster="nono.gif"> </video>
+<video src="nono.gif" autoplay poster="nono.gif"> </video>
 </div>
 </body>

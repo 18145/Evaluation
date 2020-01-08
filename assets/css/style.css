@@ -58,3 +58,11 @@ height: 400px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+div#wrap{
+    position: relative;
+    width: 200px;
+    margin: auto;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+}
