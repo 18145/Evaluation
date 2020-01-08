@@ -1,4 +1,4 @@
-<form action="index.php?contact" method="post">
+<form action="index.php?=contact" method="post">
   <fieldset>
     <legend>Donne-moi tes données</legend>
   <div>
