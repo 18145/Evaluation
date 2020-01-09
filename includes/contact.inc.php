@@ -7,6 +7,7 @@
 <div class="contact">
   <h1>Pour nous contacter</h1>
 </div>
+
 <?php
 if (isset($_POST['frmContact'])) {
   $nom = checkInput($_POST['nom']);
@@ -45,7 +46,7 @@ if (isset($_POST['frmContact'])) {
   }
 
   else {
-    $sqlVerif = "SELECT COUNT(*) FROM evaluation
+    $sqlVerif = "SELECT COUNT(*) FROM eval
     WHERE mail='" . $mail ."'";
     $nbrOccurences = $pdo->query($sqlVerif)->fetchColumn();
 
@@ -55,9 +56,8 @@ if (isset($_POST['frmContact'])) {
 
     else {
 
-        $sql = "INSERT INTO evaluation
-        (nom, prenom, mail, msg)
-        VALUES ('" . $nom . "', '" . $prenom . "', '" . $mail ."', '" . $msg ."')";
+        $sql = "INSERT INTO eval
+        VALUES (:nom, :prenom, :mail, :msg)";
 
         $query = $pdo->prepare($sql);
         $query->bindValue('nom', $nom, PDO::PARAM_STR);

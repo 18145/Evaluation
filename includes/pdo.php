@@ -1,7 +1,7 @@
 <?php
 
 try {
-  $pdo = new PDO('mysql:host=localhost;dbname=Evaluation',
+  $pdo = new PDO('mysql:host=localhost;dbname=evaluation',
   'root', '',
   array(
         PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
