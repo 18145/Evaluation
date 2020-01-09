@@ -42,7 +42,7 @@ if (isset($_POST['frmContact'])) {
   }
 
   else {
-    $sqlVerif = "SELECT COUNT(*) FROM clients
+    $sqlVerif = "SELECT COUNT(*) FROM evaluation
     WHERE mail='" . $mail ."'";
     $nbrOccurences = $pdo->query($sqlVerif)->fetchColumn();
 
@@ -52,7 +52,7 @@ if (isset($_POST['frmContact'])) {
 
     else {
 
-        $sql = "INSERT INTO clients
+        $sql = "INSERT INTO evaluation
         (nom, prenom, mail, message)
         VALUES ('" . $nom . "', '" . $prenom . "', '" . $mail ."', '" . $msg ."')";
 
