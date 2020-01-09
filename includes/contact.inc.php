@@ -1,5 +1,8 @@
-<div class="photocontact">
-
+<div class="titreplan">
+  <h1>Plan de la belle ville de BOLBEC SA MERE</h1>
+</div>
+<div class="plan">
+  <img src="./assets/img/bolbec.jpg" alt="Plan de Bolbec">
 </div>
 <div class="contact">
   <h1>Pour nous contacter</h1>

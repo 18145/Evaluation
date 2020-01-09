@@ -71,4 +71,29 @@ div#wrap{
   font-size: 3em;
   margin-top: 10px;
   font-weight: bold;
+  color: red;
+}
+
+.plan {
+  margin-top: 20px;
+}
+
+.bas{
+  margin-bottom: 10px;
+}
+
+.titreplan{
+  margin-top: 20px;
+  font-size: 3em;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.titreparcour{
+  font-size: 2em;
+}
+
+.fdprofile{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

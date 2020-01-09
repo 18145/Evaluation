@@ -19,7 +19,7 @@
     <label for="msg">Message :</label>
     <textarea name="msg" id="msg"><?=$msg ?></textarea>
   </div>
-  <div>
+  <div class="bas">
     <input type="submit" value="Clique-moi grand fou !"/>
   </div>
   </fieldset>
