@@ -7,10 +7,12 @@ body{
 div nav ul li {
   display: inline-block;
   background-color: #3FA09E;
-  font-size: 3.2em;
+  font-size: 5.1em;
   font-family: serif;
   text-align: center;
   font-weight: bold;
+  height: 1em;
+  position: relative;
 }
 
 header img {
@@ -120,4 +122,54 @@ div#wrap{
 .experienceprocv ul li{
   text-align: center;
   font-size: 1.3em;
+}
+
+.competencescv h1{
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.competencescv li{
+  text-align: center;
+  font-size: 1.3em;
+  list-style-type: circle;
+}
+
+.formations h1{
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.formations ul li{
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.loisir h1{
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.loisir ul li{
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.loisir{
+  margin-bottom: 30px;
 }

@@ -23,5 +23,29 @@
       </ul>
     </div>
 
+    <div class="competencescv">
+      <h1>Compétences</h1>
+        <li>Patisserie | Eclairs, Paris-Brest, Fraisier</li>
+        <li>Boulangie | Pain, Croissant, Pain au chocolat</li>
+    </div>
+
+    <div class="formations">
+      <h1>Formations</h1>
+        <ul>
+        <li>Bac Scientifique option millionnaire - 2010</li>
+        <li>Licence Culture boulangerie - 2012</li>
+        </ul>
+    </div>
+
+    <div class="loisir">
+      <h1>Loisir</h1>
+        <ul>
+        <li>Joueur de pétanque</li>
+        <li>Passionné par les boites en plastiques</li>
+        <li>Fan de Rock, joue de la batterie</li>
+        <li>Champion du monde du mettage de bonne note à Théo Lehéricé</li>
+        </ul>
+    </div>
+
   </body>
 </html>
