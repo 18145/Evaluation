@@ -95,5 +95,29 @@ div#wrap{
 
 .fdprofile{
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.nomprenompostecv h1{
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 30px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: black;
+}
+
+.experienceprocv h1{
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+
+.experienceprocv ul li{
+  text-align: center;
+  font-size: 1.3em;
 }
