@@ -56,14 +56,14 @@ if (isset($_POST['frmContact'])) {
     else {
 
         $sql = "INSERT INTO evaluation
-        (nom, prenom, mail, message)
+        (nom, prenom, mail, msg)
         VALUES ('" . $nom . "', '" . $prenom . "', '" . $mail ."', '" . $msg ."')";
 
         $query = $pdo->prepare($sql);
         $query->bindValue('nom', $nom, PDO::PARAM_STR);
         $query->bindValue('prenom', $prenom, PDO::PARAM_STR);
         $query->bindValue('mail', $mail, PDO::PARAM_STR);
-        $query->bindValue('message', $msg, PDO::PARAM_STR);
+        $query->bindValue('msg', $msg, PDO::PARAM_STR);
 
         $query->execute();
 
