@@ -1,4 +1,9 @@
-<h1>Pour nous contacter</h1>
+<div class="photocontact">
+
+</div>
+<div class="contact">
+  <h1>Pour nous contacter</h1>
+</div>
 <?php
 if (isset($_POST['frmContact'])) {
   $nom = checkInput($_POST['nom']);

@@ -40,6 +40,7 @@ background-color: #700909
   font-weight: bold;
   font-size: 3em;
   bottom: 0px;
+  position: absolute;
 }
 
 .beach{
@@ -65,4 +66,10 @@ div#wrap{
     margin: auto;
     border-left: 1px solid #999;
     border-right: 1px solid #999;
+}
+
+.contact{
+  font-size: 3em;
+  margin-top: 10px;
+  font-weight: bold;
 }
