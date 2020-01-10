@@ -13,6 +13,7 @@ div nav ul li {
   font-weight: bold;
   height: 1em;
   position: relative;
+  color: #FFF
 }
 
 header img {
@@ -38,22 +39,34 @@ background-color: #700909
 #footer{
   background-color: #3FA09E;
   height: 90px;
-  text-align: center;
   font-weight: bold;
   font-size: 3em;
-  bottom: 0px;
+  margin-top: 500px;
+  position: relative;
+  text-align: center;
+}
+/* Page "photos"*/
+#beach{
+  display: inline;
+  	float: left;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-bottom: 20px
 }
 
-.beach{
-margin-top: 50px;
-width: 400px;
-height: 400px;
-}
-
-.foret{
-  max-width: 100%;
-  margin-bottom: 50px;
+#foret{
+  display: inline;
+	float: right;
   margin-top: 100px;
+  margin-right: 80px;
+}
+
+#textphotos{
+  display: inline;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .ml{
