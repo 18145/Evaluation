@@ -1,4 +1,4 @@
-<div class="ml">
+<div id="mentionslegales">
 
 <p style="text-align:center"><span style="color:#FF0000"><span style="background-color:#D3D3D3">Information: </span> <br>
 <span style="color:#FF0000"><span style="background-color:#D3D3D3">J'ai utilisé un générateur de Mentions légales histoire de ne pas laisser cette page vide</span></span></p>

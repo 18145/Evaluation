@@ -47,5 +47,8 @@
         </ul>
     </div>
 
+    <div id="downloadcv">
+      <a href="./assets/CV.pdf" download="Mon CV">Télécharger CV</a>
+    </div>
   </body>
 </html>

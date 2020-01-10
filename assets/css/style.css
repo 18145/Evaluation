@@ -1,5 +1,6 @@
 @import url('reset.css');
 
+/* Accueil, header, nav bar, footer etc.. */
 body{
   background-color: #FFF;
 }
@@ -28,40 +29,45 @@ color: #FFF;
 float: right;
 font-size: 1.2em;
 margin-right: 2em;
-background-color: #700909
+background-color: #700909;
+margin-bottom: 60px;
 }
 
 .top {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
-#footer{
+footer{
   background-color: #3FA09E;
-  height: 90px;
+  width: 100%;
   font-weight: bold;
   font-size: 3em;
-  margin-top: 500px;
-  position: relative;
+  position: fixed;
   text-align: center;
+  bottom: 0;
+  left: 0;
+
 }
+
 /* Page "photos"*/
-#beach{
+#photobeach{
   display: inline;
   	float: left;
     margin-top: 100px;
     margin-left: 80px;
-    margin-bottom: 20px
+    margin-bottom: 60px
 }
 
-#foret{
+#photoforet{
   display: inline;
 	float: right;
   margin-top: 100px;
   margin-right: 80px;
+  margin-bottom: 60px;
 }
 
-#textphotos{
+#titrephotos{
   display: inline;
   font-weight: bold;
   font-size: 3em;
@@ -69,32 +75,41 @@ background-color: #700909
   text-decoration: underline;
 }
 
-.ml{
+/* Mentions Légales */
+#mentionslegales{
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
+  font-size: 1.1em;
 }
 
-div#wrap{
-    position: relative;
-    width: 200px;
-    margin: auto;
-    border-left: 1px solid #999;
-    border-right: 1px solid #999;
+/* Contact*/
+.bas {
+  margin-bottom: 60px;
 }
-
 .contact{
   font-size: 3em;
   margin-top: 10px;
   font-weight: bold;
   color: red;
+  text-decoration: underline;
+  text-align: center;
+}
+.msg{
+  font-size: 1.3em;
+  text-align: center;
+}
+.frmContact{
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.bas{
+  font-size: 1.3em;
+  text-align: center;
 }
 
 .plan {
   margin-top: 20px;
-}
-
-.bas{
-  margin-bottom: 10px;
 }
 
 .titreplan{
@@ -103,7 +118,7 @@ div#wrap{
   font-weight: bold;
   font-family: cursive;
 }
-
+/* CV */
 .titreparcour{
   font-size: 2em;
 }
@@ -185,4 +200,10 @@ div#wrap{
 
 .loisir{
   margin-bottom: 30px;
+}
+
+#downloadcv{
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 60px;
 }

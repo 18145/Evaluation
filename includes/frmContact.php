@@ -1,5 +1,6 @@
 <form action="index.php?page=contact" method="post">
   <fieldset>
+    <div class="frmContact">
     <legend>Donne-moi tes données</legend>
   <div>
     <label for="nom">nom :</label>
@@ -15,12 +16,13 @@
   </div>
   </fieldset>
   <fieldset>
-  <div>
+  <div class="msg">
     <label for="msg">message :</label>
     <textarea name="msg" id="msg"><?=$msg ?></textarea>
   </div>
   <div class="bas">
     <input type="submit" value="Clique-moi grand fou !"/>
+  </div>
   </div>
   </fieldset>
   <input type="hidden" name="frmContact"/>

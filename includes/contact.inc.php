@@ -46,7 +46,7 @@ if (isset($_POST['frmContact'])) {
     $query->bindValue(':msg', $msg, PDO::PARAM_STR);
     $query->execute();
     echo "Bienvenue dans la secte";
-    
+
   }
 }
 else {
