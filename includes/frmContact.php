@@ -1,22 +1,22 @@
-<form action="index.php?=contact" method="post">
+<form action="index.php?page=contact" method="post">
   <fieldset>
     <legend>Donne-moi tes données</legend>
   <div>
-    <label for="nom">Nom :</label>
+    <label for="nom">nom :</label>
     <input type="text" name="nom" id="nom" value="<?=$nom ?>"/>
   </div>
   <div>
-    <label for="prenom">Prénom :</label>
+    <label for="prenom">prénom :</label>
     <input type="text" name="prenom" id="prenom" value="<?=$prenom ?>"/>
   </div>
   <div>
-    <label for="mail">e-mail :</label>
+    <label for="mail">mail :</label>
     <input type="email" name="mail" id="mail" value="<?=$mail ?>"/>
   </div>
   </fieldset>
   <fieldset>
   <div>
-    <label for="msg">Message :</label>
+    <label for="msg">message :</label>
     <textarea name="msg" id="msg"><?=$msg ?></textarea>
   </div>
   <div class="bas">
