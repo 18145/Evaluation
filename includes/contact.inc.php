@@ -13,7 +13,7 @@ if (isset($_POST['frmContact'])) {
   $nom = checkInput($_POST['nom']);
   $prenom = checkInput($_POST['prenom']);
   $mail = checkInput($_POST['mail']);
-  $message = checkInput($_POST['msg']);
+  $msg = checkInput($_POST['msg']);
   $erreur = array();
   if ($nom === "")
     array_push($erreur, "Saisi ton nom");
@@ -21,7 +21,7 @@ if (isset($_POST['frmContact'])) {
     array_push($erreur, "Saisi ton");
   if ($mail === "")
     array_push($erreur, "Donne moi ton adresse mail");
-  if ($message === "")
+  if ($msg === "")
     array_push($erreur, "Laisse moi un message d'amour");
   if (count($erreur) > 0) {
     $message = '<ul>';
@@ -35,13 +35,9 @@ if (isset($_POST['frmContact'])) {
     require 'frmContact.php';
   }
   else {
-    $sqlVerif = "SELECT COUNT(*) FROM eval
-    WHERE mail='" . $mail ."'";
+    $sqlVerif = "SELECT COUNT(*) FROM eval";
     $nbrOccurences = $pdo->query($sqlVerif)->fetchColumn();
-    if ($nbrOccurences > 0) {
-      echo "Regarde l'echo";
-    }
-else {
+
     $sql = "INSERT INTO eval (nom, prenom, mail, msg) VALUES  ('" . $nom . "', '" . $prenom . "', '" . $mail ."', '" . $msg ."')";
     $query = $pdo->prepare($sql);
     $query->bindValue(':nom', $nom, PDO::PARAM_STR);
@@ -50,7 +46,7 @@ else {
     $query->bindValue(':msg', $msg, PDO::PARAM_STR);
     $query->execute();
     echo "Bienvenue dans la secte";
-    }
+    
   }
 }
 else {
